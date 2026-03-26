@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://www.useinstatools.com">
+    <link rel="dns-prefetch" href="https://www.useinstatools.com">
+
+    <meta http-equiv="refresh" content="0; url=https://www.useinstatools.com">
+    <link rel="canonical" href="https://www.useinstatools.com">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests;">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
-    <meta http-equiv="refresh" content="0; url=https://www.useinstatools.com">
-    <link rel="canonical" href="https://www.useinstatools.com">
-
     <title>Instatools | Instagram Design Suite</title>
     <meta name="description" content="Instatools is a browser-based Instagram design suite. Create scroll-stopping posts, highlight covers, and profile photos with local-only image processing that stays on your device.">
     <meta name="keywords" content="Instagram design suite, Instagram post generator, highlight covers, profile pictures, local image processing, privacy-friendly design, Instatools">
     <meta name="author" content="Blacnova Development">
-    <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#000000">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#ffffff">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.useinstatools.com">
     <meta property="og:title" content="Instatools | Instagram Design Suite">
     <meta property="og:description" content="Create scroll-stopping Instagram posts with privacy-friendly, local-only processing.">
     <meta property="og:site_name" content="Instatools">
+    <meta property="og:locale" content="en_US">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://www.useinstatools.com">
     <meta name="twitter:title" content="Instatools | Instagram Design Suite">
     <meta name="twitter:description" content="Create scroll-stopping Instagram posts with privacy-friendly, local-only processing.">
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Instatools",
+      "url": "https://www.useinstatools.com",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "WebBrowser",
+      "description": "Browser-based Instagram design suite for creating posts, highlights, and profile pictures with local-only processing.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Blacnova Development",
+        "url": "https://www.blacnova.net"
+      }
+    }
+    </script>
+
     <style>
         body {
             font-family: 'Inter', system-ui, -apple-system, sans-serif;
-            background-color: #050816;
-            color: #ffffff;
+            background-color: #ffffff; /* Clean white background */
+            color: #111827; /* Very dark gray for contrast */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -46,38 +67,52 @@
             max-width: 600px;
         }
         h1 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
+            font-size: 1.75rem;
+            margin-bottom: 12px;
+            font-weight: 800;
+            letter-spacing: -0.025em;
         }
         p {
-            color: #9ca3af;
-            margin-bottom: 20px;
+            color: #4b5563; /* Slate gray text */
+            margin-bottom: 28px;
+            font-size: 1rem;
+            line-height: 1.5;
         }
         a {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             background: linear-gradient(90deg, #FCAF45 0%, #E1306C 50%, #833AB4 100%);
             color: white;
             text-decoration: none;
-            padding: 12px 24px;
+            padding: 14px 32px;
             border-radius: 9999px;
-            font-weight: bold;
-            transition: opacity 0.2s;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 14px rgba(225, 48, 108, 0.25);
         }
         a:hover {
-            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(225, 48, 108, 0.4);
+        }
+        a:active {
+            transform: translateY(0);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Redirecting to Instatools...</h1>
-        <p>You are being redirected to our new home. If you are not redirected automatically within a few seconds, please click the button below.</p>
-        <a href="https://www.useinstatools.com" rel="noopener noreferrer">Go to Instatools</a>
+        <p>You are being securely redirected to our new, permanent home. If your browser does not redirect you automatically in a few seconds, please click the button below.</p>
+        <a href="https://www.useinstatools.com" rel="noopener noreferrer">Proceed to Instatools</a>
     </div>
 
     <script>
-        // Uses .replace() so the current placeholder page isn't saved in the user's browser back-history
-        window.location.replace("https://www.useinstatools.com");
+        // window.location.replace ensures the user doesn't get stuck in a "back button" loop
+        window.setTimeout(function() {
+            window.location.replace("https://www.useinstatools.com");
+        }, 50); // Tiny delay to ensure SEO crawlers register the page metadata before the script fires
     </script>
 </body>
 </html>
