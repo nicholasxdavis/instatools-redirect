@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# No sitemap is included here because we want bots to process the redirect on the index page
+# and transfer indexing authority directly to www.useinstatools.com
